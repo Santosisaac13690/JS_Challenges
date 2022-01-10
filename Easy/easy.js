@@ -19,6 +19,9 @@ if (name1length > name2length){
     console.log("Names are the same length")
 }
 
+
+
+
 var nameDif = function(name1,name2){
     var name1length = name1.length;
     var name2length = name2.length;
@@ -38,3 +41,9 @@ var nameDif = function(name1,name2){
 nameDif("John", "Billy")
 nameDif("Johnny", "Bill")
 nameDif("John", "Bill")
+
+var name1 = "Seth"
+var name2 = "Isaac"
+var answer = name2.length - name1.length;
+
+console.log(`The name ${name2} is longer than the name ${name1} by ${answer} character`)

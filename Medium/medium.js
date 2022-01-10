@@ -15,7 +15,7 @@ if (input === input.toUpperCase()){
 } else if (input === input.toLowerCase()){
     alert(lower)
     console.log("whispering")
-} else{
+} else {
     alert(normal)
     console.log("Talking Normally")
 }
